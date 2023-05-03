@@ -1,0 +1,9 @@
+{:source-paths ["src" "portfolio" "resources" "dev-resources"]
+ :dependencies [[no.cjohansen/portfolio "2023.04.26"]]
+ :builds
+ {:portfolio {:target :browser
+        :output-dir "resources/public/assets/js"
+       ;;  :asset-path "/assets/js"
+        :modules {:main {:entries [portfolio]
+                         :init-fn portfolio/init}}}}
+ :dev-http {5003 ["public" "classpath:public"]}}

@@ -1,0 +1,8 @@
+/.cpcache/
+/.nrepl-port
+.clj-kondo/.cache
+/.calva/
+/.lsp/
+/.shadow-cljs/
+dev-resources/public/js
+resources/public/assets/js
