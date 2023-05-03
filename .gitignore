@@ -1,6 +1,7 @@
+/.git/
 /.cpcache/
 /.nrepl-port
-.clj-kondo/.cache
+/.clj-kondo/
 /.calva/
 /.lsp/
 /.shadow-cljs/
